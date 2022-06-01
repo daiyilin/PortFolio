@@ -242,8 +242,8 @@ ul {
     z-index: 100;
 }
 .smallLogo {
-    /* background: var(--sec-color); */
-    font-size: 5vmin;
+    
+    font-size: 7vmin;
     padding: 10px;
 }
 
@@ -251,8 +251,13 @@ ul {
     display: none;
     width: 100%;
     text-align: center;
-    font-size: 5vmin;
+    font-size: 7vmin;
 }
+
+.samllMenu ul li {
+    padding: 10px;
+}
+
 .samllMenu ul li:hover {
     background: #494949;
     color: #fff;
@@ -262,7 +267,7 @@ ul {
     .media {
         padding: 20px;
     }
-    .navigation {
+    .navigation, .smallLogo {
         display: none !important;
     }
     
@@ -290,5 +295,11 @@ ul {
 
     .watchnow {
         top: 85%;
+        width: 100%;
+        display: flex;
+    }
+
+    .watchnow a {
+        white-space: nowrap; /*不換行*/
     }
 }

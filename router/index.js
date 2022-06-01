@@ -10,7 +10,6 @@ const Movie = () => import('../src/views/movie.vue')
 const Gsap = () => import('../src/views/gsap.vue')
 const LoadPage = () => import('../src/views/LoadPage.vue')
 const LoadPageOld = () => import('../src/views/LoadPageOld.vue')
-const IndexCopy = () => import('../src/views/IndexCopy.vue')
 
 
 Vue.use(Router)
@@ -41,11 +40,6 @@ export default new Router({
             path: '/LoadPageOld',
             name: '/LoadPageOld',
             component: LoadPageOld
-        },
-        {
-            path: '/IndexCopy',
-            name: '/IndexCopy',
-            component: IndexCopy
         },
     ]
 });

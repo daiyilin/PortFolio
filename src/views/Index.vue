@@ -77,8 +77,7 @@
       </div> -->
 
       <div class="ellipse-container">
-        <div ><img class="pic" src="../assets/myself.jpg" alt="dai yi Pic."></div>
-        <!-- <div class="ellipse thick"></div> -->
+        <div ><img class="pic" src="~@/assets/myself.jpg" alt="dai yi Pic."></div>
         <div class="ellipse yellow"></div>
       </div>
     </div>
@@ -145,12 +144,14 @@ export default {
         menuObj.querySelector('.mainTitle').style.display = "block";
         navigationObj.style.backgroundColor = "var(--sec-color)"
         navigationObj.style.zIndex = 100
+        document.getElementById("smallLogo").style.backgroundColor = "var(--sec-color)"
 
        
       } else {
         menuObj.querySelector('.mainTitle').style.display = "none";
         navigationObj.style.backgroundColor = "#fff"
         navigationObj.style.zIndex = -100
+        document.getElementById("smallLogo").style.backgroundColor = "#fff"
       }
     },
     play(){
@@ -194,9 +195,6 @@ export default {
   background: var(--sec-color);
 }
 
-.aboutTitle {
-  
-}
 .newPage {
   padding-top: 50px;
 }
@@ -204,6 +202,10 @@ export default {
 .newPage .mainTitle {
   display: flex;
   justify-content: center;
+  font-size: 6em;
+}
+
+.aboutTitle span {
   font-size: 6em;
 }
 
@@ -215,7 +217,7 @@ export default {
 
 .aboutPic {
   width: 20%;
-  background: url('../assets/myself.jpg') no-repeat;
+  background: url('~@/assets/myself.jpg') no-repeat;
   background-size: Cover ; 
   background-position: center;
 }
