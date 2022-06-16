@@ -10,6 +10,7 @@ const Movie = () => import('../src/views/movie.vue')
 const Gsap = () => import('../src/views/gsap.vue')
 const LoadPage = () => import('../src/views/LoadPage.vue')
 const LoadPageOld = () => import('../src/views/LoadPageOld.vue')
+const TestPage = () => import('../src/views/TestPage.vue')
 
 
 Vue.use(Router)
@@ -40,6 +41,11 @@ export default new Router({
             path: '/LoadPageOld',
             name: '/LoadPageOld',
             component: LoadPageOld
+        },
+        {
+            path: '/TestPage',
+            name: '/TestPage',
+            component: TestPage
         },
     ]
 });
