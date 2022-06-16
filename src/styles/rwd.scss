@@ -1,0 +1,11 @@
+@mixin mq-xs {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin mq-lg {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
