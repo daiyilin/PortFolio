@@ -42,7 +42,7 @@
           id="audio"
           muted
         ></audio>
-        <a href="#">Happy Pirate</a>
+        <a href="#">You are braver <br> than you believe.</a>
       </div>
 
       <!-- <div class="media">
@@ -79,7 +79,7 @@
             並互相交流自己的看法，讓自己在這個過程中可以獲得更多額外的知識。 
           </p>
           <p>
-            時常會研讀讀技術文章、參考別人設計的網站、練習Leet Code題目，培養自己邏輯能力。
+            偶爾會研讀讀技術文章、參考別人設計的網站、練習Leet Code題目，培養自己邏輯能力。
           </p>
           <p>
             對我而言，程式，是條無止境的路；而我，就在這條路上持續的前進著。
@@ -98,7 +98,7 @@
           <span>Frontend</span>
           <ul>
             <li>Vue</li>
-            <li>Java Scritp</li>
+            <li>JavaScript</li>
             <li>css</li>
             <li>html5</li>
           </ul>

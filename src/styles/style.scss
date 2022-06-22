@@ -164,6 +164,8 @@ ul {
     transform: translateY(-50%);
     background: var(--main-color);
     padding: 30px 180px 30px 30px;
+    display: flex;
+    align-items: center;
 }
 
 .watchnow a {
@@ -314,7 +316,7 @@ ul {
     
 
     .specialtyPage {
-        background: url('../assets/img/experienceBg4.jpg') no-repeat;
+        background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)),url('../assets/img/experienceBg4.jpg') no-repeat;
     }
 
     .specialtyContent {
